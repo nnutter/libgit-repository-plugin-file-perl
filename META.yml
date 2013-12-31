@@ -1,0 +1,23 @@
+---
+abstract: 'Add a file() method to Git::Repository'
+author:
+  - 'Nathaniel G. Nutter <nnutter@cpan.org>'
+build_requires:
+  Class::Inspector: 0
+  Git::Repository::Plugin::Test: 0
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.008, CPAN::Meta::Converter version 2.133380'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Git-Repository-Plugin-File
+requires:
+  Git::Repository: 0
+  Path::Class: 0
+resources:
+  repository: git://github.com/nnutter/Git-Repository-Plugin-File.git
+version: 0.002
