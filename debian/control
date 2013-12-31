@@ -1,0 +1,19 @@
+Source: libgit-repository-plugin-file-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 7)
+Build-Depends-Indep: perl, libclass-inspector-perl,
+  libgit-repository-plugin-test-perl, libgit-repository-perl,
+  libpath-class-perl
+Maintainer: Nathaniel Nutter <nnutter@genome.wustl.edu>
+Standards-Version: 3.8.3
+Homepage: http://search.cpan.org/dist/Git-Repository-Plugin-File/
+
+Package: libgit-repository-plugin-file-perl
+Architecture: all
+Depends: ${perl:Depends}, ${misc:Depends}, libgit-repository-perl,
+  libpath-class-perl
+Description: Add a file() method to Git::Repository
+ Git::Repository::File mostly wraps <Path::Class::File>.
+ .
+ This description was automagically extracted from the module by dh-make-perl.
